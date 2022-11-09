@@ -9,6 +9,7 @@ Esta consulta se emplea para actualizar o modificar los registros ya existentes 
 Para actualizar una tabla deberemos utilizar el Update seguido de la tabla para posteriormente indicar la modificacion o el cambio que se va a realizar. 
 
 **Ejemplo**
+
 ![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.004.png)
 
 ![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.007.png)
@@ -58,6 +59,7 @@ En este caso la funcion nos retornara una marca de tiempo unix, es decir la cant
 
 6. **strftime(format, time-value, modifier, modifier):**
 Devuelve la fecha de acuerdo con la cadena de formato que se especifica como primer argumento. 
+
 
 **Ejemplo**
 ![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.005.png)
