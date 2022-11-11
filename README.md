@@ -21,6 +21,8 @@ Los esquemas en bases de datos se encargan de representar la configuracion logic
 
 ![Alt text](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/database/discovery/logical-physical-schema.svg)
 
+
+
  este tipo de esquemas se crean con la intencion de ayudar a los programadores que cuyo software tiene algun tipo de interaccion con la base de datos. 
 
  Como ya habiamos indicado antes existen dos tipos de esquemas de bases de datos:
@@ -62,11 +64,73 @@ Devuelve la fecha de acuerdo con la cadena de formato que se especifica como pri
 
 
 **Ejemplo**
+
 ![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.005.png)
 
 En el siguiente ejemplo podemos apreciar como se ve la fecha especificada en cada uno de los seis formatos
 
 ## primary key constraint
+la Primary key (o llave primaria en español) es una retriccion que identifica de forma exclusiva cada registro en una tabla. Las claves primarias siempre tendran valores unicos y no puede terner valores vacion o null
+
+
+**Ejemplo**
+
+
+![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.008.png)
+
+## not null constraint
+Generalmente los registros pueden contener valores nulos. Para evitar que existan espacios vacios en los registros utilizamos los **Not Null**, los cuales restricciones que se utilizan para que las columnas no puedadn quedar vacias. 
+
+**Ejemplos**
+
+![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.008.png)
+
+
+## unique constraint
+los **unique constrain** son restricciones del sistema para solo tener un valor unico por columna, de tal manera que cumple la misma funcion que una **primary key**, la diferencia entre el uno y el otro es que **Unique constrain** permite tener varios en un solo  registro y **primary key** solo puede haber uno por registro
+
+**Ejemplo**
+
+![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.014.png)
+
+
+## Default Constraint
+Esta funcion se utiliza para dejar el valor de una columna predefinido, este valor predispuesto se agrega a todos los registros nuevos siempre y cuando no se especifique otro 
+
+**Ejemplo**
+![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.024.png)
+
+
+## check constraint
+Si se desea limitar el rango de valores que se quieren ingresar en una tabla utilizaremos Check constraint, ya que o podemos colocar en una columna y nos permitira limitar el numero de valores que puede tener 
+
+**Ejemplo**
+![Alt text](https://github.com/tcarolina/SQLite/blob/main/SQLite/Imagenes/check.PNG)
+
+
+
+## Alter table
+Esta instruccion se emplea para modificar la informacion de tablas ya cradas, estos pueden ser los nombre de columnas, datos de las filas o columnas y alterar otro tipo de datos. 
+
+**Ejemplo**
+![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.018.png)
+
+
+## drop, delete
+En caso de querer borrar tablas o culumnas podemos utilizar las instrucciones con **drop** o **delete**. puesto que estas se emplean para eliminar datos de las tablas o las mismas tablas.
+
+**Ejemplo**
+![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.020.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
