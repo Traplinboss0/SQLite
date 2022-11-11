@@ -10,9 +10,9 @@ Para actualizar una tabla deberemos utilizar el Update seguido de la tabla para 
 
 **Ejemplo**
 
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.004.png)
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Update%201.png?raw%3Dtrue)
 
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.007.png)
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Update%201.png)
 
 Como podemos ver en el siguiente ejemplo actualizamos la tabla Users de tal manera que cambiamos algunos datos. 
 
@@ -59,13 +59,13 @@ Esta funcion devolvera el dia Juliano o en otras palabras el numero fraccionados
 5. **unixepoch(time-value, modifier, modifier, ...):**
 En este caso la funcion nos retornara una marca de tiempo unix, es decir la cantidad de segundos desde 1970-01-01 00:00:00 UTC.
 
-6. **strftime(format, time-value, modifier, modifier):**
+6. **strtime(format, time-value, modifier, modifier):**
 Devuelve la fecha de acuerdo con la cadena de formato que se especifica como primer argumento. 
 
 
 **Ejemplo**
 
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.005.png)
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Unixpoint.png)
 
 En el siguiente ejemplo podemos apreciar como se ve la fecha especificada en cada uno de los seis formatos
 
@@ -75,15 +75,15 @@ la Primary key (o llave primaria en español) es una retriccion que identifica d
 
 **Ejemplo**
 
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Primary.png)
 
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.008.png)
 
 ## not null constraint
 Generalmente los registros pueden contener valores nulos. Para evitar que existan espacios vacios en los registros utilizamos los **Not Null**, los cuales restricciones que se utilizan para que las columnas no puedadn quedar vacias. 
 
 **Ejemplos**
 
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.008.png)
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Not.png)
 
 
 ## unique constraint
@@ -91,21 +91,22 @@ los **unique constrain** son restricciones del sistema para solo tener un valor 
 
 **Ejemplo**
 
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.014.png)
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Unique.png)
 
 
 ## Default Constraint
 Esta funcion se utiliza para dejar el valor de una columna predefinido, este valor predispuesto se agrega a todos los registros nuevos siempre y cuando no se especifique otro 
 
 **Ejemplo**
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.024.png)
 
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Default.png)
 
 ## check constraint
 Si se desea limitar el rango de valores que se quieren ingresar en una tabla utilizaremos Check constraint, ya que o podemos colocar en una columna y nos permitira limitar el numero de valores que puede tener 
 
 **Ejemplo**
-![Alt text](https://github.com/tcarolina/SQLite/blob/main/SQLite/Imagenes/check.PNG)
+
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/check.png)
 
 
 
@@ -113,14 +114,16 @@ Si se desea limitar el rango de valores que se quieren ingresar en una tabla uti
 Esta instruccion se emplea para modificar la informacion de tablas ya cradas, estos pueden ser los nombre de columnas, datos de las filas o columnas y alterar otro tipo de datos. 
 
 **Ejemplo**
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.018.png)
+
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Alter.png)
 
 
 ## drop, delete
 En caso de querer borrar tablas o culumnas podemos utilizar las instrucciones con **drop** o **delete**. puesto que estas se emplean para eliminar datos de las tablas o las mismas tablas.
 
 **Ejemplo**
-![Alt text](https://github.com/MateoRodriguez1426/Actividad-Sqlite/blob/main/Imagenes/Aspose.Words.f9333c64-612e-45e6-a455-d9051c5a5f64.020.png)
+
+![Alt text](https://github.com/Traplinboss0/SQLite/blob/master/Imagenes/Drop.png)
 
 
 
